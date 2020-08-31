@@ -1,27 +1,9 @@
 const capitalize = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
-}
+};
 
 const reverseString = (string) => {
-  return string
-    .split('')
-    .reverse()
-    .join('')
-}
+  return string.split('').reverse().join('');
+};
 
-const calculator = {
-  add: (a, b) => {
-    return a + b
-  },
-  subtract: (a, b) => {
-    return a - b
-  },
-  divide: (a, b) => {
-    return a / b
-  },
-  multiply: (a, b) => {
-    return a * b
-  },
-}
-
-export { calculator, reverseString, capitalize }
+export { reverseString, capitalize };
