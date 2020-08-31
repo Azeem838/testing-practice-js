@@ -1,18 +1,16 @@
 const average = (arr) => {
   let total = 0;
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i += 1) {
     total += arr[i];
   }
   return total / arr.length;
 };
 
-const arrayAnalysis = (arr) => {
-  return {
-    average: average(arr),
-    min: Math.min(...arr),
-    max: Math.max(...arr),
-    length: arr.length,
-  };
-};
+const arrayAnalysis = (arr) => ({
+  average: average(arr),
+  min: Math.min(...arr),
+  max: Math.max(...arr),
+  length: arr.length,
+});
 
 module.exports = arrayAnalysis;
