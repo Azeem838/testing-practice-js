@@ -16,6 +16,10 @@ test('it returns the average', () => {
   expect(arrayAnalysis([1, 2, 3]).length).toBe(3);
 });
 
+test('zero array length', () => {
+  expect(arrayAnalysis([]).length).toBe(0);
+});
+
 test('negative numbers', () => {
   const actual = arrayAnalysis([5, 2, -34, 12, 7, 125, 67, 0, -495, 13]);
   const expected = {
