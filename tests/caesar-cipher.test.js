@@ -1,4 +1,4 @@
-const caesarCipher = require('./caesar-cipher');
+const caesarCipher = require('../modules/caesar-cipher');
 
 test('Single word, all lower case, no wrap', () => {
   expect(caesarCipher('hello', 5)).toBe('mjqqt');

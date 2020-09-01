@@ -1,4 +1,4 @@
-import calculator from './calculator';
+import calculator from '../modules/calculator';
 
 test('checks that the calculator object contains the basic operations', () => {
   expect(calculator.add(2, 8)).toBe(10);

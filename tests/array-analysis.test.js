@@ -1,4 +1,4 @@
-const arrayAnalysis = require('./array-analysis');
+const arrayAnalysis = require('../modules/array-analysis');
 
 test('it returns the average', () => {
   expect(arrayAnalysis([1, 2, 3]).average).toBe(2);
