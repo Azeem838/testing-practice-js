@@ -1,75 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Test Practice
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> This is a project to practice testing cases with jest in javascript.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+- Javascript
+- Jest
+- NPM
+- ESLint
 
 ### Setup
 
-### Install
+From the command line/terminal clone the repository:
+
+```
+$ git clone https://github.com/abdelp/test-practice-js.git
+```
 
 ### Usage
 
-### Run tests
+Go to the root folder in your terminal and install the node packages:
 
-### Deployment
+```
+npm install
+```
 
+### Usage
 
+Run the tests:
+
+```
+npm run test
+```
 
 ## Authors
 
-👤 **Author1**
+:bust_in_silhouette: **Eric Mbouwe**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@ericmbouwe](https://github.com/ericmbouwe)
+- Twitter: [@ericmbouwe](https://twitter.com/ericmbouwe)
+- Linkedin: [Eric Mbouwe](https://www.linkedin.com/in/ericmbouwe/)
+- E-mail: ericmbouwe@gmail.com
 
-👤 **Author2**
+:bust_in_silhouette: **Azeem Ahmed**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@Azeem838](https://github.com/Azeem838)
+- LinkedIn: [Azeem Ahmed](www.linkedin.com/in/azeemmahmed)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Azeem838/testing-practice-js/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
